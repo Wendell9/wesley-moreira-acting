@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
               <img
                 src={t.image}
                 alt={`Cena de ${t.role}`}
-                className="w-full aspect-square object-cover grayscale"
+                className="w-full aspect-square object-cover"
                 loading="lazy"
               />
               <p className="font-display text-lg italic text-foreground leading-relaxed">
