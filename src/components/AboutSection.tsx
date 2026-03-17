@@ -7,7 +7,7 @@ const AboutSection = () => {
         <img
           src={aboutImg}
           alt="Wesley Guindani em cena — Sonho de Uma Noite de Verão"
-          className="w-full aspect-[4/5] object-cover grayscale"
+          className="w-full aspect-[4/5] object-cover"
           loading="lazy"
         />
         <div className="flex flex-col gap-6">

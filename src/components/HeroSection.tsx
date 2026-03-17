@@ -18,14 +18,14 @@ const HeroSection = () => {
             href="#contato"
             className="inline-flex items-center justify-center bg-primary text-primary-foreground font-body text-sm tracking-[0.2em] uppercase px-10 py-4 hover:opacity-80 transition-opacity w-fit"
           >
-            [AÇÃO]
+            Entre em Contato
           </a>
         </div>
         <div className="order-1 md:order-2">
           <img
             src={heroImg}
             alt="Wesley Moreira Guindani — Ator em São Paulo"
-            className="w-full aspect-[3/4] object-cover grayscale"
+            className="w-full aspect-[3/4] object-cover"
             loading="eager"
           />
         </div>
