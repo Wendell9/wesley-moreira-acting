@@ -79,7 +79,7 @@ const TestimonialsSection = () => {
           Trabalhos
         </p>
         <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground text-center mb-16">
-          O que dizem
+          Artísticos
         </h2>
 
         <div className="relative">
