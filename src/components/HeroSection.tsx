@@ -25,7 +25,7 @@ const HeroSection = () => {
           <img
             src={heroImg}
             alt="Wesley Moreira Guindani — Ator em São Paulo"
-            className="w-full aspect-[3/4] object-cover grayscale"
+            className="w-full aspect-[3/4] object-cover"
             loading="eager"
           />
         </div>
