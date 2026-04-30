@@ -29,9 +29,9 @@ export function PortfolioSection() {
   const slides = portfolioImages.map(url => ({ src: url }));
 
   return (
-    <section className="py-16 bg-white overflow-hidden">
+    <section id="destaques" className="py-16 bg-white overflow-hidden">
       <div className="container mx-auto px-4 mb-10 text-center">
-        <h2 className="text-4xl font-extrabold tracking-tight text-gray-950 mb-3">Meu Portfólio</h2>
+        <h2 className="text-4xl font-extrabold tracking-tight text-gray-950 mb-3">Destaques</h2>
         <p className="text-lg text-gray-600 max-w-xl mx-auto">
           Explore meus trabalhos e detalhes de projetos em destaque.
         </p>
@@ -48,6 +48,11 @@ export function PortfolioSection() {
             <Swiper
               // Módulos necessários (destaque para EffectCoverflow)
               modules={[Navigation, Pagination, EffectCoverflow, Autoplay]}
+
+            style={{
+                "--swiper-navigation-color": "#ffffff", // Muda a cor da seta (ex: cinza bem escuro)
+                "--swiper-pagination-color": "#ffffff", // Muda a cor dos pontinhos de baixo
+            } as React.CSSProperties}
               
               // Configurações para "Passar uma foto por vez com destaque"
               centeredSlides={true}       // Mantém o slide ativo no centro
