@@ -6,11 +6,11 @@ const services = [
     title: "Atuação",
     description: "Interpretação para teatro, cinema, TV e publicidade com técnica e versatilidade.",
   },
-  {
+/*  {
     icon: Users,
     title: "Figuração",
     description: "Participação como figurante e extra em produções audiovisuais de todos os portes.",
-  },
+  },*/
   {
     icon: Megaphone,
     title: "Direção",
@@ -20,7 +20,7 @@ const services = [
     icon: PenTool,
     title: "Roteiro",
     description: "Criação e adaptação de roteiros para teatro, curtas e projetos independentes.",
-  },
+  }
 ];
 
 const ServicesSection = () => {
@@ -33,7 +33,7 @@ const ServicesSection = () => {
         <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground text-center mb-16">
           Serviços
         </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12">
           {services.map((s) => (
             <div key={s.title} className="flex flex-col items-center text-center gap-4">
               <s.icon size={32} strokeWidth={1} className="text-foreground" />
